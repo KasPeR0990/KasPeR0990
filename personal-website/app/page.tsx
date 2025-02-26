@@ -22,7 +22,7 @@ export default function Home() {
           </svg>
           
           <div className="max-w-md text">
-            <p className="mb-2 text-base">Hey, I'm Kasper! I'm a 15-year-old high school student from Sweden with lots of passions but right now I'm deepdiving into AI and coding.
+            <p className="mb-2 text-base">Hey, I&apos;m Kasper! A 15-year-old high school student from Sweden with lots of passions but right now I&apos;m deepdiving into AI and coding.
               I enjoy building projects and exploring new technologies in my free time.</p>
           </div>
         </div>
