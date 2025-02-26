@@ -3,19 +3,32 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f2f0ec;
   --foreground: #171717;
 }
 
+/* Force light mode regardless of system preference */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #ffffff;
+    --background: #f2f0ec;
     --foreground: #171717;
   }
+}
+
+html {
+  color-scheme: light;
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  html, body {
+    font-size: 15px;
+  }
 }
