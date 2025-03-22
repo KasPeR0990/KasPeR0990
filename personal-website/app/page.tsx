@@ -4,7 +4,7 @@ import { PiXLogo } from "react-icons/pi";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-gray-800 font-sans">
+    <div className="min-h-screen bg-background text-gray-800">
       {/* Header with full width */}
       <header className="w-full py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center">
