@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=GeistMono:wght@400;700&display=swap');
+
+body {
+  font-family: 'GeistMono', monospace;
+}
+
 :root {
   --background: #f2f0ec;
   --foreground: #171717;
