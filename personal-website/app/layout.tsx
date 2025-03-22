@@ -1,6 +1,6 @@
 import './globals.css';
 import React from 'react';
-import { GeistMono } from 'geist/font/mono';
+import { GeistMono } from '@vercel/fonts';
 
 export const metadata = {
   title: 'Kasper Hallenius',
@@ -17,7 +17,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={GeistMono.className}>
       <head>
-        {/* GeistMono font already included via className above */}
       </head>
       <body>
         {children}
