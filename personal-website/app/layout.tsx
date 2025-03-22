@@ -1,5 +1,6 @@
 import './globals.css';
 import React from 'react';
+import { GeistMono } from 'geist/font/mono';
 
 export const metadata = {
   title: 'Kasper Hallenius',
@@ -14,11 +15,9 @@ export const viewport = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className={GeistMono.className}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
-        <link href="https://fonts.googleapis.com/css2?family=GeistMono:wght@400;700&display=swap" rel="stylesheet" />
+        {/* GeistMono font already included via className above */}
       </head>
       <body>
         {children}
