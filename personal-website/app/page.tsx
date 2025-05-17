@@ -34,7 +34,7 @@ export default function Home() {
           </svg>
           
           <div className="max-w-md text-center sm:text-left px-4 sm:px-0">
-            <p className="mb-2 text-sm sm:text-base">hey, i@apos;m kasper! i@apos;m a 15 y/o high school student from sweden who@apos;s into tech. i like building cool stuff and playing around with new ideas in my free time.</p>
+            <p className="mb-2 text-sm sm:text-base">hey, i&apos;m kasper! i&apos;m a 15 y/o high school student from sweden who&apos;s into tech. i like building cool stuff and playing around with new ideas in my free time.</p>
           </div>
         </div>
         
