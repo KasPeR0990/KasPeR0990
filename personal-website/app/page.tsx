@@ -4,14 +4,15 @@ import { PiXLogo } from "react-icons/pi";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background text-gray-800">
+    <div className="min-h-screen bg-background text-gray-800"
+      style={{ backgroundColor: '#F4F2E9' }}>
       {/* Header with full width */}
       <header className="w-full py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex justify-between items-center">
-          <h1 className="text-xl font-medium">Kasper Hallenius</h1>
+          <h1 className="text-xl font-medium">kasper hallenius</h1>
           <nav>
-            <a href="https://x.com/Kasper0990" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
-              Follow me on 
+            <a href="https://x.com/kasper0990" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              follow me on 
               <PiXLogo className="inline-block align-middle ml-1" />
               
             </a>
@@ -33,31 +34,30 @@ export default function Home() {
           </svg>
           
           <div className="max-w-md text-center sm:text-left px-4 sm:px-0">
-            <p className="mb-2 text-sm sm:text-base">Hey, I&apos;m Kasper! A 15-year-old high school student from Sweden with lots of passions but right now I&apos;m deepdiving into AI and coding.
-              I enjoy building projects and exploring new technologies in my free time.</p>
+            <p className="mb-2 text-sm sm:text-base">hey, i@apos;m kasper! i@apos;m a 15 y/o high school student from sweden who@apos;s into tech. i like building cool stuff and playing around with new ideas in my free time.</p>
           </div>
         </div>
         
         <div className="max-w-2xl mx-auto px-4 sm:px-0">
           <div className="flex flex-col sm:flex-row mb-8 sm:mb-10">
-            <div className="w-full sm:w-32 text-sm text-gray-500 mb-2 sm:mb-0">Interests</div>
+            <div className="w-full sm:w-32 text-sm text-gray-500 mb-2 sm:mb-0">interests</div>
             <div className="flex-1">
               <div className="mb-4">
-                <div className="mb-1 font-medium">Artificial Intelligence</div>
-                <div className="text-gray-500 text-sm">Learning about AI in general and how to integrate it in software.</div>
+                <div className="mb-1 font-medium">artificial intelligence</div>
+                <div className="text-gray-500 text-sm">ml, agents and building intelligent software.</div>
               </div>
               <div className="mb-4">
-                <div className="mb-1 font-medium">Software Development</div>
-                <div className="text-gray-500 text-sm">I love building stuff, mostly in nextjs.  </div>
+                <div className="mb-1 font-medium">building stuff</div>
+                <div className="text-gray-500 text-sm">i love building stuff.  </div>
               </div>
             </div>
           </div>
           
           <div className="flex flex-col sm:flex-row">
-            <div className="w-full sm:w-32 text-sm text-gray-500 mb-2 sm:mb-0">Online</div>
+            <div className="w-full sm:w-32 text-sm text-gray-500 mb-2 sm:mb-0">connect</div>
             <div className="flex-1">
               <div className="mb-4 flex flex-col sm:flex-row">
-                <div className="w-full sm:w-40 mb-1 sm:mb-0">Email</div>
+                <div className="w-full sm:w-40 mb-1 sm:mb-0">email</div>
                 <a href="mailto:kasperhallenius@icloud.com" className="hover:underline">
                   kasperhallenius@icloud.com</a> 
               </div>
@@ -68,7 +68,7 @@ export default function Home() {
                     GitHub
                   </a>
                 </div>
-                <a href="https://github.com/KasPeR0990" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm">Follow</a>
+                <a href="https://github.com/KasPeR0990" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm">follow</a>
               </div>
               <div className="mb-4 flex flex-col sm:flex-row">
                 <div className="w-full sm:w-40 mb-1 sm:mb-0">
@@ -77,11 +77,15 @@ export default function Home() {
                   (Twitter)
                   </a>
                 </div>
-                <a href="https://x.com/Kasper0990" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm">Follow</a>
+                <a href="https://x.com/Kasper0990" target="_blank" rel="noopener noreferrer" className="text-gray-500 text-sm">follow</a>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      {/* Watermark */}
+      <div className="w-full flex justify-center py-20">
+        <span className="text-gray-200/10 text-6xl font-bold">kasperhallenius</span>
       </div>
     </div>
   );
